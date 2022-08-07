@@ -25,6 +25,21 @@ header {
 
 h1 {
     font-size: 5em;
-    padding: 200px 0 0 20%;
-    text-shadow: -3px 3px 2px #BCF5A9;
+    padding: 200px 0 100px 20%;
+    text-shadow: -3px 3px 2px #855a85;
+}
+
+footer {
+    padding: 25px 0 100px 0;
+    background-color: #855a85;
+    margin-top: 0px;
+    color: white;    
+}
+
+ul.bozzo, a.bozzo, a.bozzo:hover, a.bozzo:visited, a.bozzo:link, a.bozzo:active {
+    color: white;
+    list-style-type: none;
+    text-decoration-color: white;
+    text-decoration: none;
+    text-decoration-color: white;
 }
