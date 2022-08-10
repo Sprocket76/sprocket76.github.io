@@ -15,18 +15,21 @@ footer {
 /* ***************** HEADER ***************** */
 
 header {
-    background: url(./media/main.jpg)no-repeat 50% 50%;
-    background-size: cover;
+    /* background: url(./media/main.jpg)no-repeat 50% 50%; */
+    /* background-size: cover; */
+    background-color: #855a85;
+    color:antiquewhite;
     height: 100vh;
     /* virtual height */
     border-radius: 0px 0px 20px 20px;
     margin-bottom: 40px;
 }
 
-h1 {
+h1.toto {
     font-size: 5em;
     padding: 200px 0 100px 20%;
-    text-shadow: -3px 3px 2px #855a85;
+    text-shadow: -6px 6px 4px #855a85;
+    background-color: rgb(224, 218, 218);
 }
 
 footer {
@@ -36,10 +39,14 @@ footer {
     color: white;    
 }
 
-ul.bozzo, a.bozzo, a.bozzo:hover, a.bozzo:visited, a.bozzo:link, a.bozzo:active {
+ul.bozzo {
     color: white;
     list-style-type: none;
     text-decoration-color: white;
     text-decoration: none;
     text-decoration-color: white;
+}
+
+a.linkb, a.linkb:hover, a.linkb:visited, a.linkb:link, a.linkb:active {
+    color: white;
 }
